@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evaluacion permanente 2</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" type="image/png" sizes="16x16"  href="/images/favicon.png">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container pokedex-container">
+      <h1 class="text-center">Evaluacion permanente 2</h1>
+      <div class="text-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/200px-International_Pok%C3%A9mon_logo.svg.png" alt="Pokémon Logo" class="pokemon-logo">
+      </div>
+      <div class="row justify-content-center align-items-center mt-4">
+        <div class="col-md-6">
+          <input type="text" id="pokemonSearch" class="form-control" placeholder="Buscar Pokémon por nombre o número">
+        </div>
+        <div class="col-md-4">
+          <button id="findPokemonButton" class="btn btn-primary btn-block">Encuentra tu Pokémon favorito</button>
+        </div>
+      </div>
+      <div id="pokemonInfo" class="pokemon-info text-center d-none mt-4">
+        <img src="" alt="Imagen del Pokémon" class="pokemon-image">
+        <h2 class="pokemon-name"></h2>
+        <p class="pokemon-height"></p>
+        <p class="pokemon-weight"></p>
+        <p class="pokemon-abilities"></p>
+        <p class="pokemon-types"></p>
+        <p class="pokemon-moves"></p>
+        <button id="shinyButton" class="btn btn-secondary mt-3">Mostrar Shiny</button>
+      </div>
+    </div>
+  <script src="script/script.js"></script>
+
+</body>
+</html>

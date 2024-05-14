@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&family=Oxanium&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
+}
+
+body {
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  background-image: url('/images/pokedex.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pokedex-container {
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.pokemon-info {
+  margin-top: 30px;
+}
+
+.pokemon-image {
+  width: 250px;
+  height: 250px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 auto 20px;
+}
+
+.pokemon-name {
+  color: #2196F3;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+#shinyButton {
+  background-color: #ffc107;
+  border-color: #ffc107; 
+  color: #212529;
+  margin-top: 20px; 
+}
+  
+#shinyButton:hover {
+  background-color: #ffca2c; 
+  border-color: #ffca2c; 
+}
